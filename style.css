@@ -1,17 +1,26 @@
 html{
     background-color: black;
-    color: white;
+    color: blue;
 }
 body{
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pushster', cursive;
     font-weight: 200;
+    background-image: url("Images/bottom-corner.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 200px;
 }
 h1{
-    font-size: 60px;
+    font-size: 70px;
 
 }
+h3{
+    font-size: 30px;
+}
+p{
+    font-size: 18px;
+}
 .Top-Section{
-    display: flex;
     background-image: url("Images/PinClipart.com_rockstar-clip-art_677011.png");
     background-repeat: no-repeat;
     margin:0;
@@ -19,7 +28,7 @@ h1{
     margin-bottom: 100px;
 }
 .color{
-    color: tomato;
+    color: yellowgreen;
 }
 .half-width{
     width:50%;
@@ -37,10 +46,39 @@ h1{
     background-image: linear-gradient(tomato,red);
 }
 .Mid-Section{
-    display: flex;
     background-image: url("Images/dream-bg-removebg-preview.png");
     background-repeat: no-repeat;
     background-position: right;
     margin: 0;
     margin-bottom: 100px;
+}
+.flexible-container{
+    display: flex;
+}
+#Bottom-Section{
+    background-image: url("Images/exp-bg-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    padding: 40px;
+    width: 50%;
+    box-shadow: 10px 10px 40px orange;
+    padding: 40px;
+    margin: 20px;
+    margin-bottom: 200px;
+    border-radius: 20px;
+}
+#pro-wd{
+    border-left: 10px solid;
+    border-image: linear-gradient(tomato,red);
+    border-image-slice: 1;
+}
+#baby-wd{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
